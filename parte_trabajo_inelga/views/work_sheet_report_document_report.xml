@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<odoo>
+
+        <!-- Quitar comercial -->
+    <record id="work_sheet_ingelga_inh_report" model="ir.ui.view">
+        <field name="name">work.sheet.inelga.inh.report</field>
+        <field name="inherit_id" ref="hr_timesheet_work.work_sheet_report_document_report"/>
+        <field name="arch" type="xml">
+
+
+        </field>
+        <field name="type">qweb</field>
+        <field name="priority">999</field>
+    </record>
+</odoo>
