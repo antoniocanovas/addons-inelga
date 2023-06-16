@@ -9,11 +9,12 @@
     "author": "SerinCloud, ",
     "website": "https://ingeniriacloud.com",
     "license": "AGPL-3",
-    "depends": ['account',
+    "depends": ['sales',
 
                 ],
     "data": [
-        "views/work_sheet_report_document_report.xml",
+        "views/sale_order_report.xml",
+        "views/external_inelga_layout_standard.xml",
     ],
     "installable": True,
 }
