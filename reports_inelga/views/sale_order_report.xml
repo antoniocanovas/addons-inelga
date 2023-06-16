@@ -2,13 +2,13 @@
 <odoo>
 
         <!-- Quitar comercial -->
-    <record id="saleorder_ingelga_inh_report" model="ir.ui.view">
+    <record id="saleorder_inelga_inh_report" model="ir.ui.view">
         <field name="name">saleorder.inelga.inh.report</field>
         <field name="inherit_id" ref="sale.report_saleorder_document"/>
         <field name="arch" type="xml">
-
-            <xpath expr="//div[@t-if='doc.user_id.name']" position="replace"/>
-
+            <data>
+                <xpath expr="//div[@t-if='doc.user_id.name']" position="replace"/>
+            </data>
         </field>
         <field name="type">qweb</field>
         <field name="priority">999</field>
@@ -19,9 +19,12 @@
         <field name="name">external.layout.standard.inelga.inh</field>
         <field name="inherit_id" ref="web.external_layout_standard"/>
         <field name="arch" type="xml">
-
+            <data>
+                <!--
                 <xpath expr="//div" position="replace"/>
                 <xpath expr="//div[@class='text-center']" position="replace"/>
+                -->
+            </data>
          </field>
         <field name="type">qweb</field>
         <field name="priority">999</field>
