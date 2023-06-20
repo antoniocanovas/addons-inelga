@@ -6,10 +6,10 @@
     "summary": "Reports Inelga",
     "version": "14.0.0.1.0",
     "category": "Reports",
-    "author": "SerinCloud, ",
+    "author": "SerinCloud",
     "website": "https://ingeniriacloud.com",
     "license": "AGPL-3",
-    "depends": ['sales',
+    "depends": ['sale_management',
 
                 ],
     "data": [
