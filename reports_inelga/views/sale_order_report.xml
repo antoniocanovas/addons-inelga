@@ -13,20 +13,4 @@
         <field name="type">qweb</field>
         <field name="priority">999</field>
     </record>
-
-    <!-- Quitar cabecera y pie de la factura -->
-    <record id="external_layout_standard_inelga_inh" model="ir.ui.view">
-        <field name="name">external.layout.standard.inelga.inh</field>
-        <field name="inherit_id" ref="web.external_layout_standard"/>
-        <field name="arch" type="xml">
-            <data>
-                <!--
-                <xpath expr="//div" position="replace"/>
-                <xpath expr="//div[@class='text-center']" position="replace"/>
-                -->
-            </data>
-         </field>
-        <field name="type">qweb</field>
-        <field name="priority">999</field>
-    </record>
 </odoo>
